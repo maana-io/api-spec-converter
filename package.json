@@ -69,7 +69,7 @@
     "request": "^2.88.0",
     "source-map": "0.6.0",
     "swagger-converter": "^1.4.4",
-    "swagger2openapi": "2.9.2",
+    "swagger2openapi": "3.2.14",
     "sway": "^2.0.5",
     "traverse": "^0.6.6",
     "urijs": "^1.18.10",
