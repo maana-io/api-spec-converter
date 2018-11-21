@@ -1,6 +1,6 @@
 {
   "name": "api-spec-converter",
-  "version": "2.7.18",
+  "version": "2.7.19",
   "engines": {
     "node": ">=6.0.0"
   },
@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "browserify": "node node_modules/mkdirp/bin/cmd dist && browserify -s APISpecConverter -o dist/api-spec-converter.js .",
-    "test": "mocha && npm run browserify && karma start --single-run && git checkout -- dist"
+    "test": "mocha . && npm run browserify && karma start --single-run && git checkout -- dist"
   },
   "repository": {
     "type": "git",
@@ -64,6 +64,7 @@
     "google-discovery-to-swagger": "^2.0.0",
     "js-yaml": "^3.12.0",
     "lodash": "^4.17.10",
+    "oas-validator": "^1.1.13",
     "raml-parser": "^0.8.18",
     "raml-to-swagger": "^1.1.0",
     "request": "^2.88.0",
